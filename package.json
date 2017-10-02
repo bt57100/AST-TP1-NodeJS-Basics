@@ -1,0 +1,14 @@
+{
+    "name": "ast project 2017",
+    "version": "0.0.1",
+    "description": "simple project for ECE AST class",
+    "keywords": ["NodeJS", "client", "server", "tutorial", "TP1", "AST"],
+    "author": "Kevin GUOI",
+    "dependency": {
+        "gulp": "1.0"
+    },
+    "main", "src/index.js",
+    "license": "",
+    "contributors": [],
+    "dependencies": {}
+}
