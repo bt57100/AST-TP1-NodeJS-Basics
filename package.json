@@ -1,14 +1,25 @@
 {
-    "name": "ast project 2017",
+    "name": "ast tp1 2017",
     "version": "0.0.1",
-    "description": "simple project for ECE AST class",
-    "keywords": ["NodeJS", "client", "server", "tutorial", "TP1", "AST"],
     "author": "Kevin GUOI",
-    "dependency": {
-        "gulp": "1.0"
-    },
-    "main", "src/index.js",
-    "license": "",
+    "description": "simple project for ECE AST class",
+    "README": "README.md",
+    "main": "src/index.js",
+    "license": "IST",
     "contributors": [],
-    "dependencies": {}
+    "keywords": [
+        "NodeJS",
+        "client",
+        "server",
+        "tutorial",
+        "TP1",
+        "AST"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bt57100/AST-TP1-NodeJS-Basics.git"
+    },
+    "dependencies": {
+        "gulp": "1.0"
+    }
 }

@@ -2,7 +2,7 @@
 
 Simple project for ECE AST class
 
-## INSTALLATION instruction
+## Installation instruction
 
 Just clone it from github
 
