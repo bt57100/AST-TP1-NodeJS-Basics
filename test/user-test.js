@@ -16,8 +16,8 @@ describe('user', function() {
       });
   });
   it('not save properly because missing parameter', function(done){
-      user.save('only name', '', function(err) {
-        should.not.exist(err);
+      user.save('only name', function(err) {
+        should.exist(err);
         done();
       });
   });
