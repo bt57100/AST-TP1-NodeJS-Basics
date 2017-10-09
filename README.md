@@ -12,7 +12,7 @@ Use "node src/index.js"
 
 ## Tests
 
-For later
+./bin/test.js
 
 ## Contributors
 
