@@ -4,7 +4,7 @@
 
 // Import modules
 var http = require('http');
-var server = require('./modules/server.js');
+var server = require('./lib/app.js');
 
 
 // Declare an http server
@@ -14,5 +14,3 @@ http.createServer(
 
         // Start the server with information in module server
         ).listen(server.port, server.address);
-
-
