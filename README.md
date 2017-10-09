@@ -10,11 +10,11 @@ Just clone it from github
 
 ## Run
 
-Use "./bin/start.js"
+Use "bash bin/start.sh"
 
 ## Tests
 
-Use "./bin/test.js test/*"
+Use "bash bin/test.sh test/*"
 
 ## Contributors
 
