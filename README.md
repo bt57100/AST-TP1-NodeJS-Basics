@@ -8,11 +8,11 @@ Just clone it from github
 
 ## Run
 
-Use "node src/index.js"
+Use "./bin/start.js"
 
 ## Tests
 
-./bin/test.js
+Use "./bin/test.js /*"
 
 ## Contributors
 

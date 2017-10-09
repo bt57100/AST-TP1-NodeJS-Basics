@@ -19,6 +19,10 @@
         "type": "git",
         "url": "https://github.com/bt57100/AST-TP1-NodeJS-Basics.git"
     },
+    "scripts": {
+        "start": "node bin/start.js",
+        "test": "./bin/test tests/*"
+    },
     "dependencies": {
         "gulp": "1.0"
     },
