@@ -14,7 +14,7 @@ Use "./bin/start.js"
 
 ## Tests
 
-Use "./bin/test.js /*"
+Use "./bin/test.js test/*"
 
 ## Contributors
 

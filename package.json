@@ -21,7 +21,7 @@
     },
     "scripts": {
         "start": "node bin/start.js",
-        "test": "./bin/test.js tests/*"
+        "test": "./bin/test.js test/*"
     },
     "dependencies": {
         "morgan": "^1.9.0"
