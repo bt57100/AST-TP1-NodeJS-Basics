@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./node_modules/mocha/bin/mocha test/*
+./node_modules/mocha/bin/mocha $@

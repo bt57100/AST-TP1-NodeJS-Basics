@@ -6,6 +6,7 @@
 
 var user = require('../src/lib/user.js');
 var should = require('should');
+
 describe('user', function() {
   it('save properly', function(done){
       // sth
@@ -15,8 +16,8 @@ describe('user', function() {
       });
   });
   it('not save properly because missing parameter', function(done){
-      user.save('only name', function(err) {
-        should.exist(err);
+      user.save('only name', '', function(err) {
+        should.not.exist(err);
         done();
       });
   });
