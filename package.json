@@ -1,5 +1,5 @@
 {
-    "name": "ast project 2017",
+    "name": "ast_project_2017",
     "version": "0.0.1",
     "author": "Kevin GUOI",
     "description": "simple project for ECE AST class",
@@ -21,10 +21,10 @@
     },
     "scripts": {
         "start": "node bin/start.js",
-        "test": "./bin/test tests/*"
+        "test": "./bin/test.js tests/*"
     },
     "dependencies": {
-        "gulp": "1.0"
+        "morgan": "^1.9.0"
     },
     "devDependencies": {
         "mocha": "^4.0.1",
