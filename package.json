@@ -21,10 +21,15 @@
     },
     "scripts": {
         "start": "bash bin/start.sh",
-        "test": "bash bin/test.sh test/*"
+        "test": "bash bin/test.sh test/*",
+        "compile": "bash bin/compile.sh"
     },
     "dependencies": {
-        "morgan": "^1.9.0"
+        "coffee-script": "^1.12.7",
+        "morgan": "^1.9.0",
+        "pug": "^2.0.0-rc.4",
+        "pug-cli": "^1.0.0-alpha6",
+        "stylus": "^0.54.5"
     },
     "devDependencies": {
         "mocha": "^4.0.1",
