@@ -8,6 +8,10 @@ Simple project for ECE AST class
 
 Just clone it from github
 
+## Compile
+
+Use "bash bin/compile.sh"
+
 ## Run
 
 Use "bash bin/start.sh"

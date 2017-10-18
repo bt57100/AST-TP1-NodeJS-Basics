@@ -7,8 +7,6 @@ fs = require 'fs'
 pug = require 'pug'
 
 renderResource = (filename, type, res, callback) ->
-  console.log type
-  console.log filename
   if type == "html"
     pug.renderFile "views/index.pug", pretty: true, (err, html) ->
       throw err if err
@@ -19,8 +17,6 @@ renderResource = (filename, type, res, callback) ->
   else if type == "css"
     #console.log "rendering resource public/#{type}/#{filename}"
     fs.readFile "public/#{type}/#{filename}", (err, file) ->
-      console.log type
-      console.log filename
       throw err if err
       res.writeHead 200,
         'Content-Type': "text/#{type}"
@@ -33,9 +29,9 @@ module.exports =
     url = url.parse req.url
     [_, directory, filetype, filename] = url.pathname.split "/"
     directory = "/" if directory == ""
-    switch url.pathname
+    switch directory
       when "/"
-        renderResource "index.html", "html", res
+        renderResource "index.pug", "html", res
       when "save"
         user.save "testu", "testpwd", () ->
           res.writeHead 201,
@@ -47,7 +43,7 @@ module.exports =
             'Content-Type': "text/plain"
           res.end "Got the user"
       when "public" 
-        renderResource "global.css", "css", res#filename, filetype, res
+        renderResource filename, filetype, res
       else
         res.writeHead 404, 
           'Content-Type': "text/plain"
